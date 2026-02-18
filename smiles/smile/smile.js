@@ -29,7 +29,7 @@ export const render = () => {
         <img src="/logo.webp" alt="${app}" class="header_avatar" />
         <div class="header_text">
           <h1>Mis Notas</h1>
-          <p>${Saludar()}, <strong>${display}</strong></p>
+          <p>${Saludar()} <strong>${display}</strong></p>
         </div>
       </div>
       <div class="header_status">
