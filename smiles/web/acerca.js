@@ -152,7 +152,7 @@ export const render = () => `
       <div class="ac_hero_bg"></div>
       <div class="ac_hero_contenido">
         <div class="ac_logo_grande">
-          <img src="/logo.webp" alt="${app}" />
+          <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app}" />
         </div>
         <h1 class="ac_titulo">${app}</h1>
         <p class="ac_tagline">✨ Inspirando vidas a través de palabras ✨</p>

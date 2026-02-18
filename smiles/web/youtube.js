@@ -292,7 +292,7 @@ export const render = () => `
           </div>
         </div>
         <div class="contenido_imagen">
-          <img src="/logo.webp" alt="${app} YouTube" />
+          <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app} YouTube" />
           <div class="contenido_badge">
             <i class="fab fa-youtube"></i>
             <span>Síguenos</span>

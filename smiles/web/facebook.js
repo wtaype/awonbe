@@ -115,7 +115,7 @@ export const render = () => `
         <div class="fb_perfil_contenido">
           <div class="fb_perfil_izq">
             <div class="fb_avatar">
-              <img src="/logo.webp" alt="${app}" />
+              <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app}" />
               <div class="fb_badge"><i class="fas fa-circle-check"></i></div>
             </div>
             <div class="fb_info">
@@ -219,7 +219,7 @@ export const render = () => `
             ${posts.map((post, i) => `
               <article class="fb_post" data-vista="post${i}">
                 <div class="fb_post_header">
-                  <img src="/logo.webp" alt="${app}" class="fb_post_avatar" />
+                  <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app}" class="fb_post_avatar" />
                   <div class="fb_post_info">
                     <strong>${app}</strong>
                     <span class="fb_post_fecha">${post.fecha} • <i class="fas fa-globe"></i></span>

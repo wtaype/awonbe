@@ -96,7 +96,7 @@ export const render = () => `
       <div class="ig_hero_contenido">
         <div class="ig_perfil">
           <div class="ig_avatar">
-            <img src="/logo.webp" alt="${app}" />
+            <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app}" />
             <div class="ig_badge"><i class="fas fa-circle-check"></i></div>
           </div>
           
@@ -225,7 +225,7 @@ export const render = () => `
     <section class="ig_contenido">
       <div class="contenido_wrapper">
         <div class="contenido_imagen">
-          <img src="/logo.webp" alt="${app} Instagram" />
+          <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app} Instagram" />
           <div class="contenido_badge">
             <i class="fab fa-instagram"></i>
             <span>${stats.seguidores}</span>

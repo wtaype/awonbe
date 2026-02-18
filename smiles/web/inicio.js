@@ -21,7 +21,7 @@ export const render = () => `
     <section class="hero">
       <div class="hero_contenido">
         <div class="hero_logo">
-          <img src="/logo.webp" alt="Awonbe Logo" />
+          <img src="${import.meta.env.BASE_URL}logo.webp" alt="Awonbe Logo" />
         </div>
         <h1 class="hero_titulo">
           Frases de <span class="gradiente">Motivación</span>,<br>
@@ -147,7 +147,7 @@ export const render = () => `
           </div>
         </div>
         <div class="sobre_imagen">
-          <img src="/logo.webp" alt="${app} - Frases Inspiradoras" />
+          <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app} - Frases Inspiradoras" />
         </div>
       </div>
     </section>

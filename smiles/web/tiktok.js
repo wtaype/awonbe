@@ -111,7 +111,7 @@ export const render = () => `
       <div class="tt_hero_contenido">
         <div class="tt_perfil">
           <div class="tt_avatar">
-            <img src="/logo.webp" alt="${app}" />
+            <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app}" />
             <div class="tt_badge"><i class="fas fa-circle-check"></i></div>
           </div>
           <div class="tt_info">
@@ -253,7 +253,7 @@ export const render = () => `
     <section class="tt_beneficios">
       <div class="beneficios_wrapper">
         <div class="beneficios_imagen">
-          <img src="/logo.webp" alt="${app} TikTok" />
+          <img src="${import.meta.env.BASE_URL}logo.webp" alt="${app} TikTok" />
           <div class="beneficios_badge">
             <i class="fab fa-tiktok"></i>
             <span>${stats.seguidores}</span>
