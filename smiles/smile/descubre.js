@@ -187,7 +187,7 @@ export const render = () => `
             Personaliza, descarga y comparte inspiración con el mundo.
           </p>
           <div class="hero_ctas">
-            <a href="#/auth?mode=registro" class="btn_primary" ${wiTip('¡Comienza gratis!')}>
+            <a href="/login" class="btn_primary" ${wiTip('¡Comienza gratis!')}>
               <i class="fas fa-user-plus"></i>
               <span>Crear Cuenta Gratis</span>
             </a>

@@ -192,7 +192,7 @@ const _eliminar = async () => {
 // ── HELPERS ──
 const _status  = ok => {
   $('.status_dot').toggleClass('active', ok).toggleClass('error', !ok);
-  $('.status_text').text(ok ? 'En vivo ✓' : 'Desconectado');
+  $('.status_text').text(ok ? 'En vivo' : 'Desconectado');
 };
 
 const _htmlList = list => list?.length
